@@ -5,6 +5,11 @@ WORK IN PROGRESS!:hammer_and_pick::construction_worker_man:
 # PORTFOLIO WEBSITE
 This is my portfolio website:monocle_face:. It describes who i am:blush:, what i do:desktop_computer::mag::lock_with_ink_pen: and all that am about!
 
+# DEVELOPMENT
+This project is built with the viteJS front end framework and threeJS libraries.
+
+
+
 
 
 
