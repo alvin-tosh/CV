@@ -77,7 +77,7 @@ canvas {
   }
 
   .right{
-    grid-column: 2 / 8;
+    grid-column: 3 / 8;
 }
 
   .left {
