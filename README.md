@@ -7,7 +7,11 @@ This is my portfolio website:monocle_face:. It describes who i am:blush:, what i
 
 # DEVELOPMENT
 This project is built with the viteJS front end framework and threeJS libraries.
-work in progress!
+work in progress...!
+to be expanded upon beyond any imagination!
+
+# CONTRIBUTING
+feel free to contribute and add any cool animation with CSS Javascript or even webgl and svg!
 
 
 
