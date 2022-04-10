@@ -62,7 +62,7 @@ const spaceTexture = new THREE.TextureLoader().load('stellar.jpg');
 scene.background = spaceTexture;
 
 //avatar
-const myTexture = new THREE.TextureLoader().load('Screenshot_2022-02-13-15-20-54-98.jpg');
+const myTexture = new THREE.TextureLoader().load('me.jpg');
 
 const my = new THREE.Mesh(
   new THREE.BoxGeometry(4,4,4),
@@ -74,7 +74,7 @@ scene.add(my);
 const moonTexture = new THREE.TextureLoader().load('moon.jpg');
 const normalTexture = new THREE.TextureLoader().load('normal.jpg');
 const moon = new THREE.Mesh(
-  new THREE.SphereGeometry(4,40,40),
+  new THREE.SphereGeometry(5,45,45),
   new THREE.MeshStandardMaterial({ map: moonTexture, normalMap: normalTexture,
   })
 );
