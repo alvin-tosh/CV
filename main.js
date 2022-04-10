@@ -56,7 +56,7 @@ function addstar() {
 
 }
 
-Array(200).fill().forEach(addstar);
+Array(1000).fill().forEach(addstar);
 
 const spaceTexture = new THREE.TextureLoader().load('stellar.jpg');
 scene.background = spaceTexture;
@@ -65,7 +65,7 @@ scene.background = spaceTexture;
 const myTexture = new THREE.TextureLoader().load('Screenshot_2022-02-13-15-20-54-98.jpg');
 
 const my = new THREE.Mesh(
-  new THREE.BoxGeometry(3,3,3),
+  new THREE.BoxGeometry(4,4,4),
   new THREE.MeshBasicMaterial({map: myTexture})
 );
 scene.add(my);
@@ -74,7 +74,7 @@ scene.add(my);
 const moonTexture = new THREE.TextureLoader().load('moon.jpg');
 const normalTexture = new THREE.TextureLoader().load('normal.jpg');
 const moon = new THREE.Mesh(
-  new THREE.SphereGeometry(3,32,32),
+  new THREE.SphereGeometry(4,40,40),
   new THREE.MeshStandardMaterial({ map: moonTexture, normalMap: normalTexture,
   })
 );
